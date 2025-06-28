@@ -2,18 +2,18 @@
 
 This project demonstrates the use of a Bayesian mixed-media modeling approach to estimate and interpret the delayed impact of multi-channel marketing spend on weekly revenue. The analysis is performed using the latest [PyMC](https://www.pymc.io/) probabilistic programming framework.
 
-### 📊 Objective
+### Objective
 
 Model the relationship between advertising spend across seven paid marketing channels and weekly revenue using a Bayesian framework. Capture delayed marketing effects via adstock modeling, and incorporate uncertainty, trend, and optional seasonality in a principled probabilistic way.
 
-### 📦 Data
+### Data
 
 The dataset contains:
 - Weekly revenue data
 - Weekly spend on seven marketing channels
 - Time index (start of week)
 
-### 🧠 Key Modeling Features
+### Key Modeling Features
 
 - **Adstock transformation** to model carry-over effects of media spend
 - **Bayesian linear regression** using PyMC
@@ -22,14 +22,14 @@ The dataset contains:
 - Prior and posterior predictive checks
 - Model fit evaluation via posterior predictive checks and WAIC
 
-### 🛠 Tools & Libraries
+### Tools & Libraries
 
 - Python
 - PyMC
 - Arviz
 - pandas, numpy, matplotlib, seaborn
 
-### 📈 Outputs
+### Outputs
 
 - Channel effectiveness estimates
 - ROI per channel
